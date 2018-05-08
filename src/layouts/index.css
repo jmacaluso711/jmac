@@ -652,6 +652,7 @@ p {
   display: flex;
   align-items: center;
 }
+
 .text-link--ext svg {
   width: 20px;
   height: 20px;
