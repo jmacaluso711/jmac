@@ -1,4 +1,5 @@
 import React from "react";
+import Helmet from 'react-helmet'
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -7,6 +8,13 @@ export default function Template({
   const { frontmatter, html } = markdownRemark;
   return (
     <div className="page-container">
+      <Helmet
+        title={'JMac - ' + frontmatter.title}
+        meta={[
+          { name: 'description', content: 'jmac' },
+          { name: 'keywords', content: 'jmac, zone' },
+        ]}
+      />
       <div className="page">
         <h1 style={{marginBottom: '.5rem'}}>{frontmatter.title}</h1>
         <p>{frontmatter.techStack}</p>
