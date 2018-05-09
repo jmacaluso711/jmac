@@ -11,8 +11,8 @@ export default function IndexPage({data}){
       <Helmet
         title="JMac - Home"
         meta={[
-          { name: 'description', content: 'front end developer' },
-          { name: 'keywords', content: 'html, css, javascript, angular, react, front end developer' },
+          { name: 'description', content: 'new york based front end developer, ui engineer, ux engineer' },
+          { name: 'keywords', content: 'html, css, javascript, angular, react, front end developer, ui engineer, ux engineer' },
         ]}
         bodyAttributes={{
           class: 'home'
@@ -21,26 +21,28 @@ export default function IndexPage({data}){
       {posts.filter(post => post.node.frontmatter.title.length > 0)
         .map(({node: post}) => {
           if (post.frontmatter.externalLink !== null) {
-            content = ( 
+            content = (
               <div>
-                <div dangerouslySetInnerHTML={{ __html: post.html}}></div>
+                <div style={{marginBottom: '2.5rem'}} dangerouslySetInnerHTML={{ __html: post.html}}></div>
                 <a className="text-link text-link--ext" href={post.frontmatter.externalLink}><span>View Project</span><ArrowExternal color="#00ADEE"></ArrowExternal></a>
               </div>
             );
           } else {
             content = (
               <div>
-                <p>{post.excerpt}</p>
+                <p style={{ marginBottom: '2.25rem' }}>{post.excerpt}</p>
                 <Link to={post.frontmatter.path}>View Project</Link>
               </div>
             )
           }
           return (
-            <div className="project-preview" key={post.id} style={{ marginBottom: '3rem', paddingBottom: '3rem', borderBottom: '1px solid lightgray' }}>
-              <h1 style={{ fontSize: '1.5rem', marginBottom: '.5rem' }}>{post.frontmatter.title}</h1>
-              <p>{post.frontmatter.techStack}</p>
+            <article className="project-preview" key={post.id} style={{ marginBottom: '4rem', paddingBottom: '4rem', borderBottom: '1px solid lightgray' }}>
+              <header style={{marginBottom: '2.25rem'}}>
+                <h1 style={{ fontSize: '1.5rem', marginBottom: '.5rem' }}>{post.frontmatter.title}</h1>
+                <p className="tech-stack">{post.frontmatter.techStack}</p>
+              </header>
               {content}
-            </div>
+            </article>
           )
         })
       }

@@ -8,9 +8,9 @@ import Link from 'gatsby-link'
 import './index.css'
 
 const Header = () => (
-  <header>
+  <header className="site-header">
     <nav style={{display: 'flex', alignItems: 'center', justifyContent: 'flex-end', position: 'fixed', bottom: '0px', right: '0px', height: '60px', width: '100%', zIndex: '1000'}}>
-      <Link to="/about/">About</Link>
+      <Link to="/about/" activeStyle={{ textDecoration: 'none' }}>About</Link>
       <a className="text-link text-link--ext" target="_blank" href="https://github.com/jmacaluso711"><span>GitHub</span><ArrowExternal color="#fff"></ArrowExternal></a>
       <a className="text-link text-link--ext" target="_blank" href="https://www.linkedin.com/in/macalusojohn/"><span>LinkedIn</span><ArrowExternal color="#fff"></ArrowExternal></a>  
     </nav>
@@ -20,7 +20,7 @@ const Header = () => (
           <Logo></Logo>
         </Link>
       </h1>
-      <p className="intro-sentence" style={{maxWidth: '600px', padding: '0 1rem'}}>I'm a front end developer that loves to craft web experiences.</p>
+      <p className="intro-sentence" style={{color: '#333', maxWidth: '600px', padding: '0 1rem'}}>I'm a front end developer specializing in polishing web experiences.</p>
     </div>
     <ArrowDown></ArrowDown>
   </header>

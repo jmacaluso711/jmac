@@ -7,7 +7,7 @@ const GetInTouch = () => (
     <Helmet
       title="JMac - Get In Touch"
       meta={[
-        { name: 'description', content: 'UI Developer, Front end developer' },
+        { name: 'description', content: 'about jmac' },
         { name: 'keywords', content: 'html, css, javascript, angular, react, front end developer, scss, web, ui, ux' },
       ]}
     />

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600');
 
 html {
   font-family: 'Source Code Pro', monospace;
@@ -623,6 +623,8 @@ pre tt:after {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Source Code Pro', monospace;
+  font-weight: 600;
+  line-height: 1.3;
 }
 
 @media only screen and (max-width: 480px) {
@@ -645,6 +647,8 @@ a:hover {
 }
 
 p {
+  color: #666;
+  font-weight: 400;
   line-height: 1.5;
 }
 
@@ -669,17 +673,17 @@ body:not(.home) .arrow-down {
   display: none;
 }
 
-header {
+.site-header {
   height: 105px;
   padding: .75rem 1.25rem;
 }
 
-header .logo-block {
+.site-header .logo-block {
   width: 70px;
   height: 70px;
-  }
+}
 
-.home header {
+.home .site-header {
   height: calc(100vh - 60px);
   position: relative;
   display: flex;
@@ -689,7 +693,7 @@ header .logo-block {
   border-bottom: 1px solid #00ADEE;
 }
 
-.home header .logo-block {
+.home .site-header .logo-block {
   width: 170px;
   height: 170px;
   transition: all 0.3s ease;
