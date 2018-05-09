@@ -4,8 +4,8 @@ date: "2018-05-04"
 title: "TB Drug Access Atlas // Website"
 category: "Website"
 tags: ["external"]
-externalLink: "https://tb.worldhealthmap.org/"
+externalLink: "https://tb.worldhealthmap.org/explorer"
 techStack: "Fullstack WordPress // D3.js"
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, corrupti?
+This data vizualization project I did for TB Drug Access Atlas gives the user the ability to see the current major initiatives being undertaken to address supply and access challenges around internationally quality assured second line drugs.
