@@ -20,7 +20,7 @@ const Header = () => (
           <Logo></Logo>
         </Link>
       </h1>
-      <p className="intro-sentence" style={{color: '#333', maxWidth: '600px', padding: '0 1rem'}}>I'm a front end developer specializing in polishing web experiences.</p>
+      <p className="intro-sentence" style={{color: '#333', maxWidth: '600px', padding: '0 1rem'}}>I'm a front end developer with a focus on bringing that polish.</p>
     </div>
     <ArrowDown></ArrowDown>
   </header>
