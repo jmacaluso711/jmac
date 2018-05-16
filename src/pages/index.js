@@ -38,6 +38,7 @@ export default function IndexPage({data}){
           return (
             <article className="project-preview" key={post.id} style={{ marginBottom: '4rem', paddingBottom: '4rem', borderBottom: '1px solid lightgray' }}>
               <header style={{marginBottom: '2.25rem'}}>
+                <img style={{width: '60px', marginBottom: '.65rem'}} src={post.frontmatter.icon ? post.frontmatter.icon.publicURL : ""} />
                 <h1 style={{ fontSize: '1.5rem', marginBottom: '.5rem' }}>{post.frontmatter.title}</h1>
                 <p className="tech-stack">{post.frontmatter.techStack}</p>
               </header>
@@ -66,6 +67,9 @@ export const pageQuery = graphql`
             tags
             externalLink
             techStack
+            icon {
+              publicURL
+            }
           }
         }
       }
