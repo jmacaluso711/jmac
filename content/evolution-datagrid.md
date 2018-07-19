@@ -9,7 +9,7 @@ techStack: "html (pug.js) // PostCSS // js // Gulp"
 icon: "./icons/datagrid.svg"
 ---
 
-I worked with a small team of UX designers tasked with re-designing the experience of Infor’s Order Collaboration tool. We decided to take a step by step approach in an effort to prove our solution was technically feasible. The end results was a final prototype that could be used for user testing and ultimately implementation by our product team. The key challenge for me was to create these examples without the use of any 3rd party libraries.
+I worked with a small team of UX designers to re-design Infor’s Order Collaboration tool. We took an incremental approach, working toward an ambitious technical vision in small steps, validating our ideas along the way. The end result was a working prototype that could be used for user testing and ultimately implementation by our product team. The key challenge for me was to create these examples without the use of any 3rd party libraries.
 
 ##Step 1 // Sticky column
 This simple first step was an effort to show how a sticky column could be implemented with table based markup.

@@ -9,4 +9,4 @@ techStack: "Fullstack WordPress // D3.js"
 icon: "./icons/tb.svg"
 ---
 
-This data vizualization project I did for TB Drug Access Atlas gives the user the ability to see the current major initiatives being undertaken to address supply and access challenges around internationally quality assured second line drugs.
+This data vizualization I created for TB Drug Access Atlas gives the user the ability to see the current major initiatives being undertaken to address supply and access challenges around internationally quality-assured second-line drugs.
