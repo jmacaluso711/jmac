@@ -29,7 +29,7 @@ const GetInTouch = () => (
       <div className="resume-section">
         <h3 className="resume-section__title">Software Engineer</h3>
         <p className="resume-section__time-period">Infor Hook &amp; Loop, March 2017 - Present</p>
-        <p>Work with design system team architecting, building and maintaining the single source of truth documentation site for all of Infor’s front end libraries. In depth experience with Angular 2+ ecosystem along with PostCSS. Gained experience with Python backend with Wagtail CMS. Built UX prototypes for user testing. Also, served as UI developer with a high level of focus on interaction and animations of cutting edge prototype.</p>
+        <p>Work with design system team building open source front end components for all of Infor’s products and partners. Architecting, building and maintaining the single source of truth documentation site for all of Infor’s front end libraries. In depth experience with ES6, Angular 2+ ecosystem along with PostCSS, SCSS and Vanilla JS. Gained experience with Python backend and Wagtail CMS. Lead UX engineer for several prototypes built for the purpose of user testing. Also, served as UI developer with a high level of focus on interaction and animations of cutting edge prototype.</p>
       </div>
 
       <div className="resume-section">
