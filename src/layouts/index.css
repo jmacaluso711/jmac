@@ -762,3 +762,13 @@ body:not(.home) .arrow-down {
 .resume-section__time-period {
   margin-top: 0;
 }
+
+.marvel-device {
+  margin-top: 2rem;
+}
+
+.coleman-demo {
+  width: 375px;
+  height: 667px;
+  margin: 0 auto;
+}
