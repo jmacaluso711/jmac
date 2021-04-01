@@ -4,7 +4,7 @@ date: "2018-05-05"
 title: "The Biased Times // Fun"
 category: "Fun"
 tags: ["external"]
-externalLink: "https://jmacaluso711.github.io/the-biased-times/"
+externalLink: "https://the-biased-times.netlify.app/"
 techStack: "html // js // scss"
 icon: "./icons/biased.svg"
 ---
